@@ -1,34 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CarHub
 
-## Getting Started
+CarHub is a web application for buying and selling used cars. Built with Next.js, this project provides a modern and responsive interface for users to browse various car listings, filter them by price, and view detailed information about each vehicle.
 
-First, run the development server:
+## Features
+
+- **Browse Cars**: Users can view a list of available cars with essential details such as name, model, year, distance driven, location, and price.
+- **Dynamic Routing**: Each car can be clicked to view more detailed information on its own dedicated page.
+- **Category Filtering**: Cars are organized into categories (Sedan, SUV, Hatchback, Sport), allowing users to filter by their preferred type.
+- **Price Filtering**: Users can enter minimum and maximum price ranges to search for cars that fit their budget.
+- **Responsive Design**: The application is designed to be mobile-friendly and looks great on various screen sizes.
+
+## Technologies Used
+
+- **Next.js**: A React framework for server-rendered applications.
+- **React**: A JavaScript library for building user interfaces.
+- **CSS Modules**: For modular and scoped CSS styles.
+- **JavaScript**: For client-side logic and interactivity.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/matador7495/CarHub.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd CarHub
+```
+
+### 3. Install dependencies
+
+Make sure you have Node.js installed, then run the following command:
+
+```bash
+npm install
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app should now be running at http://localhost:xxxx
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Usage
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Use the search bar to input minimum and maximum price values to filter the available cars.
+2. Click on any car listing to view more details about that vehicle.
+3. Navigate through different categories to explore various types of cars.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is open-source and available under the [MIT License](./LICENSE).
